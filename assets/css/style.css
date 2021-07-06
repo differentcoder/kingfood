@@ -3,12 +3,12 @@ body{
     padding: 0;
     font-family: 'Poppins', sans-serif;
 }
-.headerarea,.aboutarea,.countdown{
+.headerarea,.aboutarea,.countdown,.footerarea{
     display: flex;
     justify-content: center;
    
 }
-.baner,.aboutarea__content,.countdown__content {
+.baner,.aboutarea__content,.countdown__content{
     display: flex;
     width: 1300px;
 }
@@ -47,7 +47,7 @@ body{
 .keyservice {
     display: flex;
     justify-content: center;
-    background: #F7F7F7;
+    background: #f4f4f4;
 }
 .keyservice__content {
     width: 1300px;
@@ -123,9 +123,11 @@ color: #707070;
 /*-- ConutDown Area --*/
 .countdown__content{
     margin: 15px;
+    margin-bottom: 50px;
     padding: 50px 0;
     border-radius: 15px;
     box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.22);
+
 }
 .conutdown__content--single{
     width: 33.33%;
@@ -134,4 +136,24 @@ color: #707070;
 .conutdown__content--single h2 {
     font-size: 57px;
     line-height: 11px;
+}
+/*-- Footer area style --*/
+.footerarea{
+    background-color: #0B0E17;
+}
+
+.footerarea__content {
+    text-align: center;
+    padding: 50px;
+}
+.footerarea__content h1{
+    font-size: 50px;
+    font-weight: 800;
+    color: #5B5B5B;
+}
+.footerarea__content h1 span{
+    color: #FB9048;
+}
+.footerarea__content p{
+    color: #ffffff;
 }
