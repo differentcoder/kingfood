@@ -1,0 +1,90 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.headerarea,.aboutarea{
+    display: flex;
+    justify-content: center;
+   
+}
+.baner,.aboutarea__content {
+    display: flex;
+    width: 1300px;
+}
+.baner__content {
+    padding-top: 100px;
+    width: 60%;
+    margin-left: 20px;
+    padding-right: 110px;
+}
+.baner__content h1 {
+    font-size: 55px;
+    color: #575757;
+    line-height: 62px;
+}
+.baner__content h1 span{
+    color: #FB8846;
+}
+.baner__content p{
+    margin-bottom: 50px;
+}
+.baner__content--btn {
+    padding: 10px 20px;
+    border-radius: 30px;
+    color: #ffffff;
+    background-image: linear-gradient(45deg,#FC8F4A,#FE4E30);
+    text-decoration: none;
+    box-shadow: 0px 0px 27px 10px #fe4f301c;
+}
+.baner__content--btn:hover {
+    background-image: linear-gradient(90deg,#FE4E30,#FC8F4A);
+}
+.baner__images--size {
+    width: 100%;
+}
+/*-- key Service area style --*/
+.keyservice {
+    display: flex;
+    justify-content: center;
+    background: #F7F7F7;
+}
+.keyservice__content {
+    width: 1300px;
+    padding: 50px 0px;
+    display: flex;
+}
+.keyservice__content--single {
+    width: 16.666%;
+    text-align: center;
+    padding: 0px 5px;
+}
+
+/*-- Abour area style --*/
+.aboutarea{
+    background-image: url(../images/Frame-58.jpg);
+    background-repeat: no-repeat;
+}
+.aboutarea__content {
+padding-top: 100px;
+}
+.aboutarea__content--images {
+    max-width: 50%;
+    margin-right: 160px;
+    padding: 0px 30px;
+}
+.aboutarea__content--images img{
+    width: 100%;
+}
+.aboutarea__content--data {
+    padding: 20px 50px 0 50px;
+}
+.aboutarea__content--data h2{
+font-size: 50px;
+color: #707070;
+}
+.aboutarea__content--data p{
+    margin-bottom: 50px;
+}
+
+    
